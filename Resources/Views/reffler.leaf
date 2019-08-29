@@ -1,0 +1,9 @@
+#set("title") { O Sorteado é: #(name)! }
+
+#set("body") {
+    <div class="welcome">
+        <h1>O Sorteado é: #(name)!</h1>
+    </div>
+}
+
+#embed("base")

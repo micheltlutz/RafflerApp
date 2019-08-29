@@ -1,0 +1,40 @@
+disabled_rules:
+ - nesting
+opt_in_rules:
+ - empty_count
+ - unused_import
+ - anyobject_protocol
+ - closure_body_length
+ - closure_end_indentation
+ - discouraged_optional_boolean
+ - discouraged_optional_collection
+ - force_unwrapping
+ - let_var_whitespace
+ - overridden_super_call
+ - private_action
+ - private_outlet
+ - sorted_first_last
+ - trailing_closure
+ - vertical_whitespace_between_cases
+ - unused_private_declaration
+included:
+   - Sources
+   - Tests
+identifier_name:
+  excluded:
+    - x
+    - y
+    - dx
+    - dy
+    - to
+    - id
+    - by
+    - at
+    - vm
+line_length: 200
+type_name:
+  min_length: 
+    error: 3
+  max_length:
+    warning: 60
+    error: 80

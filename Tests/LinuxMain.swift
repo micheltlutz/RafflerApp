@@ -5,7 +5,7 @@ import XCTest
 
 XCTMain([
     // AppTests
-    testCase(AppTests.allTests),
+    testCase(AppTests.allTests)
 ])
 
 #endif
